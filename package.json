@@ -1,0 +1,47 @@
+{
+  "name": "dsh-usage-vendor-stats",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 用量统计插件：按厂商(订阅/官方API)×KPI(token/缓存/输出)聚合，GitHub 风格日历热力图 + 日/月/厂商统计看板",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "usage",
+    "stats",
+    "vendor",
+    "provider",
+    "tokens",
+    "heatmap",
+    "dashboard"
+  ],
+  "license": "MIT"
+}
