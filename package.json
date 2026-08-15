@@ -48,5 +48,12 @@
     "type": "git",
     "url": "git+https://github.com/kirigayakazima/dsh-usage-vendor-stats.git"
   },
-  "homepage": "https://github.com/kirigayakazima/dsh-usage-vendor-stats"
+  "homepage": "https://github.com/kirigayakazima/dsh-usage-vendor-stats",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-client-runtime": "*",
+    "@deepseek-ai/dsh-client-ui-slots": "*",
+    "@deepseek-ai/dsh-client-ui-settings-general": "*"
+  }
 }
