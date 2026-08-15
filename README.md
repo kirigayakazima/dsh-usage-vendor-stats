@@ -25,18 +25,10 @@ DeepSeek Harness 用量统计插件：**按厂商（订阅 / 官方 API）× KPI
 
 本插件是标准的 DSH 社区插件包（声明 `dsh.bundle` manifest + web client 半）。
 
-### 方式一：官方插件命令（GitHub 源 / npm 发布后）
-
-从本仓库（GitHub）直接安装：
+### 从 GitHub 直接安装（推荐）
 
 ```bash
-dsh plugin --profile web add "github:<你的用户名>/dsh-usage-vendor-stats"
-```
-
-发布到 npm 后：
-
-```bash
-dsh plugin --profile web add dsh-usage-vendor-stats
+dsh plugin --profile web add "github:kirigayakazima/dsh-usage-vendor-stats"
 ```
 
 安装后刷新页面即可，无需手动改配置、无需重启。

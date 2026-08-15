@@ -43,5 +43,10 @@
     "heatmap",
     "dashboard"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirigayakazima/dsh-usage-vendor-stats.git"
+  },
+  "homepage": "https://github.com/kirigayakazima/dsh-usage-vendor-stats"
 }
