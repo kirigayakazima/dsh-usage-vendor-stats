@@ -23,6 +23,7 @@ DeepSeek Harness usage statistics plugin: aggregates API usage **by vendor (subs
 - **Time presets**: today / 7d / 14d / 30d / 90d / all.
 - **Cost estimation**: set a per-million-token unit price per vendor to see an estimated fee column.
 - **CSV export**: export daily / monthly / vendor tables to CSV.
+- **Health / performance cards**: average TTFT (time to first token), generation speed (t/s), peak context size, request error rate, and total model / tool wall time, aggregated from DSH's `sessionStats` projection.
 - Range switching, animations, light/dark theme adaptation.
 
 ### Screenshots
@@ -107,6 +108,7 @@ DeepSeek Harness 用量统计插件：**按厂商（订阅 / 官方 API）× KPI
 - **时间预设**：今天 / 7 天 / 14 天 / 30 天 / 90 天 / 全部
 - **费用估算**：为每个厂商设置每百万 token 单价，即可看到折算的预估费用列
 - **CSV 导出**：每日 / 每月 / 厂商表格均可导出 CSV
+- **健康度/性能卡片**：平均首字延迟（TTFT）、生成速度（t/s）、峰值 Context、请求错误率、模型/工具总耗时，聚合自 DSH 的 `sessionStats` 投影
 - 时间范围切换、动画、亮暗主题自适应
 
 ### 截图
