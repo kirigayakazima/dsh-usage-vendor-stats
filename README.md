@@ -25,6 +25,12 @@ DeepSeek Harness usage statistics plugin: aggregates API usage **by vendor (subs
 - **CSV export**: export daily / monthly / vendor tables to CSV.
 - Range switching, animations, light/dark theme adaptation.
 
+### Screenshots
+
+![Dashboard](assets/screenshot-dashboard.png)
+
+![Heatmap & tables](assets/screenshot-heatmap.png)
+
 ### Data source
 
 - All data comes from DSH durable session logs: `assistant/message` events carry `usage` (token accounting) and `message.source.{provider,model}` (vendor/model provenance).
@@ -102,6 +108,12 @@ DeepSeek Harness 用量统计插件：**按厂商（订阅 / 官方 API）× KPI
 - **费用估算**：为每个厂商设置每百万 token 单价，即可看到折算的预估费用列
 - **CSV 导出**：每日 / 每月 / 厂商表格均可导出 CSV
 - 时间范围切换、动画、亮暗主题自适应
+
+### 截图
+
+![用量看板](assets/screenshot-dashboard.png)
+
+![热力图与表格](assets/screenshot-heatmap.png)
 
 ### 数据说明
 
