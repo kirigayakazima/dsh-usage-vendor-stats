@@ -1,6 +1,6 @@
 {
   "name": "dsh-usage-vendor-stats",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepSeek Harness 用量统计插件：按厂商(订阅/官方API)×KPI(token/缓存/输出)聚合，GitHub 风格日历热力图 + 日/月/厂商统计看板",
   "type": "module",
   "main": "lib/index.js",
