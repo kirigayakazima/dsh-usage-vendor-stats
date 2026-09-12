@@ -1,7 +1,7 @@
 {
   "name": "dsh-usage-vendor-stats",
   "version": "0.2.0",
-  "description": "DeepSeek Harness 用量统计插件：按厂商(订阅/官方API)×KPI(token/缓存/输出)聚合，GitHub 风格日历热力图 + 日/月/厂商统计看板",
+  "description": "DeepSeek Harness 鐢ㄩ噺缁熻鎻掍欢锛氭寜鍘傚晢(璁㈤槄/瀹樻柟API)脳KPI(token/缂撳瓨/杈撳嚭)鑱氬悎锛孏itHub 椋庢牸鏃ュ巻鐑姏鍥?+ 鏃?鏈?鍘傚晢缁熻鐪嬫澘",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -24,7 +24,7 @@
     },
     "client": {
       "inject": [
-        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-modules",
         "@deepseek-ai/dsh-client-ui-slots",
         "@deepseek-ai/dsh-client-ui-settings-general"
       ],
@@ -52,7 +52,7 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "@deepseek-ai/cordis": "*",
-    "@deepseek-ai/dsh-client-runtime": "*",
+    "@deepseek-ai/dsh-client-modules": "*",
     "@deepseek-ai/dsh-client-ui-slots": "*",
     "@deepseek-ai/dsh-client-ui-settings-general": "*"
   }
